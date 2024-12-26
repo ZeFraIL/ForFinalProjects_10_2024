@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:padding="40dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/bJumpAfterClick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jump image"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bButtonJump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Jump Button"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bMoveWithSensor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move with sensor"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bMoveWithFinger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move with finger"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bShuffleString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Shuffle string"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bListenAndTellMe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Listen And Tell Me"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bMoveOrJump"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move Or Jump"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/bMove8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move on MotionLayout"
+        android:textSize="25dp"
+        android:layout_marginBottom="20dp"/>
+
+</LinearLayout>

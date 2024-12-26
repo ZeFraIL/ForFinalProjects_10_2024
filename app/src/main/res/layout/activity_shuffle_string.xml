@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="40dp"
+    android:background="#F8F2E8"
+    android:gravity="center_horizontal"
+    tools:context=".ShuffleString">
+
+    <EditText
+        android:id="@+id/etNormalString"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:padding="6dp"
+        android:textSize="25dp"
+        android:inputType="text"
+        android:background="#FFFFFF"
+        android:hint="Write something"
+        android:layout_marginBottom="50dp"/>
+
+    <Button
+        android:id="@+id/bShuffle"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:textSize="25dp"
+        android:text="Shuffle" />
+
+    <LinearLayout
+        android:id="@+id/LL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal"/>
+
+    <TextView
+        android:id="@+id/tvResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:padding="10dp"
+        android:textStyle="bold"/>
+
+</LinearLayout>
